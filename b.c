@@ -57,6 +57,7 @@ main() {
   123,
   92,
   110,
+  32,
   99,
   104,
   97,
@@ -151,7 +152,7 @@ main() {
   10,
   0
  };
- printf("#include <stdio.h>\n\nint\nmain() {\nchar s[] = {\n");
+ printf("#include <stdio.h>\n\nint\nmain() {\n char s[] = {\n");
  for(int i=0;s[i];i++){
   printf("  %d,\n", s[i]);
  }

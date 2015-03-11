@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int
+main() {
  char s[] = {
   ' ',
   ' ',
@@ -56,6 +57,7 @@ int main() {
   '{',
   '\\',
   'n',
+  ' ',
   'c',
   'h',
   'a',
